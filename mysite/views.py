@@ -42,7 +42,8 @@ def page5(request):
             <h1> Data atual: {data_atual} </h1>
             <h2>Página 5</h2>
             <a href="../page2">page2</a><br>
-            <a href="../page4">page4</a>
+            <a href="../page4">page4</a><br>
+            <img src="https://acegif.com/wp-content/uploads/2020/b72nv6/partyparrt-21.gif" alt="pérrot">
         </body>
     </html>
     '''
