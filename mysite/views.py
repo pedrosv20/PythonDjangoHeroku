@@ -22,7 +22,7 @@ def page3(request):
             <h1>Python no Heroku - SOCPS</h1>
             <h2>Página 3</h2>
             <a href="../">index</a><br>
-            <a href="../page4">index</a>
+            <a href="../page4">pagina4</a>
         </body>
     </html>
     '''
