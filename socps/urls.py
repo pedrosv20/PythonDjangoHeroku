@@ -22,5 +22,6 @@ urlpatterns = [
 	path("", mysite.views.index, name="index"),
 	path("page2/", mysite.views.page2, name="page2"),
 	path("page3/", mysite.views.page3, name="page3"),
+	path("xuxuzinho123/", mysite.views.page3, name="xuxuzinho123"),
     path('admin/', admin.site.urls),
 ]
