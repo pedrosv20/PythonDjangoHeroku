@@ -13,7 +13,7 @@ def index(request):
             <body>
                 <h1>Avaliação SOCPS II</h1><br>
                 <h1>Estudante: Pedro Vargas</h1><br>
-                <h1> Data atual: {data_atual, data_hour} </h1>
+                <h1> Data atual: 19:40 21/06/21 </h1>
             </body>
         </html>
         '''
