@@ -4,10 +4,20 @@ import datetime
 
 # Create your views here.
 def index(request):
+    data_atual = datetime.date.today()
+    data_hour = datetime.time.hour
 
-    #data_atual = date.today()
-    #return HttpResponse(data_atual)
-    return render(request, "index.html")
+    html = f'''
+        <html>
+            <head><title>Index</title></head>
+            <body>
+                <h1>Avaliação SOCPS II</h1><br>
+                <h1>Estudante: Pedro Vargas</h1><br>
+                <h1> Data atual: {data_atual, data_hour} </h1>
+            </body>
+        </html>
+        '''
+    return HttpResponse(html)
 
 def page2(request):
 
